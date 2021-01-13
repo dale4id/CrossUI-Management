@@ -34,12 +34,19 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div20")
                 .setDock("top")
+                .setHeight("2.361904761904762em")
             );
             
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div22")
                 .setDock("top")
+                .setDockMargin({
+                    "left":20,
+                    "top":0,
+                    "right":20,
+                    "bottom":0
+                })
                 .setLeft("1.5238095238095237em")
                 .setTop("0.7619047619047619em")
                 .setHeight("2.361904761904762em")
