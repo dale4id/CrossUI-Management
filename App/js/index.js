@@ -23,6 +23,7 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div19")
+                .setDock("fill")
                 .setLeft("1.5238095238095237em")
                 .setTop("2.2857142857142856em")
                 .setWidth("35.12380952380953em")
@@ -30,11 +31,29 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div20")
+                .setDock("top")
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div22")
+                .setDock("top")
+                .setLeft("1.5238095238095237em")
+                .setTop("0.7619047619047619em")
+                .setHeight("2.361904761904762em")
+                .onDock("_xui_ui_div22_ondock")
+            );
+            
+            host.xui_ui_div22.append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label8")
-                .setLeft("5.333333333333333em")
-                .setTop("2.2857142857142856em")
-                .setCaption("test")
+                .setDock("left")
+                .setLeft("6.857142857142857em")
+                .setTop("4.571428571428571em")
+                .setCaption("Project Name")
+                .setFontSize("18px")
             );
             
             return children;
