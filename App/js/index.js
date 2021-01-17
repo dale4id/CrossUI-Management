@@ -57,7 +57,7 @@ xui.Class('App', 'xui.Module',{
                 })
                 .setLeft("11.428571428571429em")
                 .setTop("17.523809523809526em")
-                .setHeight("6.857142857142857em")
+                .setHeight("4.495238095238095em")
             );
             
             host.xui_ui_div31.append(
@@ -88,6 +88,66 @@ xui.Class('App', 'xui.Module',{
                 .setDock("left")
                 .setLeft("17.523809523809526em")
                 .setTop("3.0476190476190474em")
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div34")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("16.761904761904763em")
+            );
+            
+            host.xui_ui_div34.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div60")
+                .setDock("left")
+                .setLeft("8.380952380952381em")
+                .setTop("4.571428571428571em")
+                .setWidth("25.523809523809526em")
+            );
+            
+            host.xui_ui_div60.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div61")
+                .setDock("top")
+                .setLeft("8.380952380952381em")
+                .setTop("6.095238095238095em")
+                .setHeight("3.8857142857142857em")
+            );
+            
+            host.xui_ui_div61.append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label2")
+                .setDock("fill")
+                .setLeft("6.857142857142857em")
+                .setTop("1.5238095238095237em")
+                .setCaption("Label")
+            );
+            
+            host.xui_ui_div60.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input14")
+                .setDirtyMark(false)
+                .setDock("fill")
+                .setLeft("5.333333333333333em")
+                .setTop("12.19047619047619em")
+                .setWidth("18em")
+                .setHeight("10em")
+                .setLabelSize("8em")
+                .setLabelPos("top")
+                .setLabelCaption("Text Area")
+                .setLabelHAlign("center")
+                .setHAlign("center")
+                .setMultiLines(true)
+                .setValue("asdasd")
             );
             
             return children;
