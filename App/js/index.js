@@ -25,7 +25,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_panel4")
                 .setLeft("9.904761904761905em")
                 .setTop("25.142857142857142em")
-                .setCaption("Project")
+                .setCaption("Module")
             );
             
             host.xui_ui_panel4.append(
@@ -85,7 +85,7 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Project Name")
+                .setLabelCaption("Module Name")
                 .setLabelHAlign("left")
             );
             
@@ -153,6 +153,13 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput147")
                 .setDirtyMark(false)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
                 .setLeft("3.8095238095238093em")
                 .setTop("2.2857142857142856em")
                 .setHeight("4em")
@@ -161,13 +168,6 @@ xui.Class('App', 'xui.Module',{
                 .setLabelCaption("Start Date")
                 .setLabelHAlign("left")
                 .setType("date")
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
             );
             
             host.xui_ui_div19.append(
@@ -213,6 +213,30 @@ xui.Class('App', 'xui.Module',{
                 .setLabelCaption("Keterangan")
                 .setLabelHAlign("left")
                 .setMultiLines(true)
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div78")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("4.495238095238095em")
+            );
+            
+            host.xui_ui_div78.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div79")
+                .setDock("left")
+                .setLeft("26.666666666666668em")
+                .setTop("3.0476190476190474em")
+                .setWidth("11.504761904761905em")
             );
             
             return children;
