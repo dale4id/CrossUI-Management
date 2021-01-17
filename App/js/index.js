@@ -523,17 +523,25 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.TreeGrid")
                 .setHost(host,"xui_ui_treegrid6")
                 .setDirtyMark(false)
+                .setDock("left")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
                 .setLeft("0em")
                 .setTop("0em")
+                .setWidth("35.50476190476191em")
                 .setEditable(true)
                 .setRowHandler(false)
                 .setHeader([
                     {
                         "id":"combobox",
-                        "caption":"User",
+                        "caption":"Position",
                         "required":true,
-                        "type":"combobox",
-                        "width":"8em",
+                        "type":"label",
+                        "width":"15.00952380952381em",
                         "editorListItems":[
                             {
                                 "id":"1",
@@ -547,157 +555,62 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id":"listbox",
-                        "caption":"listbox",
+                        "caption":"User",
                         "required":true,
                         "type":"combobox",
-                        "width":"8em"
+                        "width":"20.038095238095238em"
                     }
                 ])
                 .setRows([
                     {
+                        "id":"a",
                         "cells":[
                             {
-                                "value":"label1"
+                                "value":"Analyst",
+                                "caption":"Analyst"
                             },
                             {
-                                "value":"input1"
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"00:00"
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"#FFFFFF"
-                            },
-                            {
-                                "value":0.12
-                            },
-                            {
-                                "value":0.12
-                            },
-                            {
-                                "value":23.44
-                            },
-                            {
-                                "value":43.23
+                                "value":"Designer",
+                                "caption":"Mira"
                             }
                         ]
                     },
                     {
+                        "id":"b",
                         "cells":[
                             {
-                                "value":"label2"
+                                "value":"",
+                                "caption":"Design"
                             },
                             {
-                                "value":"input2"
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"02:00"
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"#F0F0F0"
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":123
-                            },
-                            {
-                                "value":56.32
+                                "value":"",
+                                "caption":"Mei"
                             }
                         ]
                     },
                     {
+                        "id":"c",
                         "cells":[
                             {
-                                "value":"label3"
+                                "value":"1",
+                                "caption":"Developer"
                             },
                             {
-                                "value":"input3"
+                                "value":"2",
+                                "caption":"Agus"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"d",
+                        "cells":[
+                            {
+                                "value":"1",
+                                "caption":"QA"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"03:00"
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"#0F0F0F"
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":233.55
-                            },
-                            {
-                                "value":43.53
+                                "value":"2",
+                                "caption":"Fina"
                             }
                         ]
                     }
