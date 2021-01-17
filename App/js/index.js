@@ -66,6 +66,7 @@ xui.Class('App', 'xui.Module',{
                 .setDock("left")
                 .setLeft("5.333333333333333em")
                 .setTop("6.857142857142857em")
+                .setWidth("20.19047619047619em")
             );
             
             host.xui_ui_div32.append(
@@ -73,19 +74,19 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input9")
                 .setDirtyMark(false)
                 .setDock("top")
-                .setLeft("0.7619047619047619em")
-                .setTop("5.333333333333333em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Top Label")
-                .setLabelHAlign("left")
                 .setDockMargin({
                     "left":5,
                     "top":0,
                     "right":5,
                     "bottom":0
                 })
+                .setLeft("0.7619047619047619em")
+                .setTop("5.333333333333333em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Project Name")
+                .setLabelHAlign("left")
             );
             
             host.xui_ui_div31.append(
@@ -101,12 +102,18 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_comboinput132")
                 .setDirtyMark(false)
                 .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
                 .setLeft("3.0476190476190474em")
                 .setTop("1.5238095238095237em")
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Top Label")
+                .setLabelCaption("Status")
                 .setLabelHAlign("left")
                 .setItems([
                     {
@@ -131,6 +138,30 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     }
                 ])
+            );
+            
+            host.xui_ui_div31.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div77")
+                .setDock("left")
+                .setLeft("26.666666666666668em")
+                .setTop("3.0476190476190474em")
+                .setWidth("11.504761904761905em")
+            );
+            
+            host.xui_ui_div77.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput147")
+                .setDirtyMark(false)
+                .setLeft("3.8095238095238093em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Start Date")
+                .setLabelHAlign("left")
+                .setType("date")
+                .setDock("top")
                 .setDockMargin({
                     "left":5,
                     "top":0,
@@ -151,7 +182,7 @@ xui.Class('App', 'xui.Module',{
                 })
                 .setLeft("11.428571428571429em")
                 .setTop("17.523809523809526em")
-                .setHeight("16.761904761904763em")
+                .setHeight("12.952380952380953em")
             );
             
             host.xui_ui_div34.append(
@@ -160,7 +191,7 @@ xui.Class('App', 'xui.Module',{
                 .setDock("left")
                 .setLeft("8.380952380952381em")
                 .setTop("4.571428571428571em")
-                .setWidth("25.523809523809526em")
+                .setWidth("41.98095238095238em")
             );
             
             host.xui_ui_div60.append(
@@ -168,20 +199,20 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input18")
                 .setDirtyMark(false)
                 .setDock("fill")
-                .setLeft("7.619047619047619em")
-                .setTop("6.857142857142857em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Top Label")
-                .setLabelHAlign("left")
-                .setMultiLines(true)
                 .setDockMargin({
                     "left":5,
                     "top":0,
                     "right":5,
                     "bottom":0
                 })
+                .setLeft("7.619047619047619em")
+                .setTop("6.857142857142857em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Keterangan")
+                .setLabelHAlign("left")
+                .setMultiLines(true)
             );
             
             return children;
