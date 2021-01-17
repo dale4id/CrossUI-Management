@@ -25,7 +25,7 @@ xui.Class('App.Module', 'xui.Module',{
                 .setHost(host,"xui_ui_panel4")
                 .setLeft("9.904761904761905em")
                 .setTop("25.142857142857142em")
-                .setCaption("Project")
+                .setCaption("Module")
             );
             
             host.xui_ui_panel4.append(
@@ -85,7 +85,7 @@ xui.Class('App.Module', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Project Name")
+                .setLabelCaption("Module Name")
                 .setLabelHAlign("left")
             );
             
@@ -153,14 +153,6 @@ xui.Class('App.Module', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput147")
                 .setDirtyMark(false)
-                .setLeft("3.8095238095238093em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Start Date")
-                .setLabelHAlign("left")
-                .setType("date")
                 .setDock("top")
                 .setDockMargin({
                     "left":5,
@@ -168,6 +160,44 @@ xui.Class('App.Module', 'xui.Module',{
                     "right":5,
                     "bottom":0
                 })
+                .setLeft("3.8095238095238093em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Tanggal Mulai")
+                .setLabelHAlign("left")
+                .setType("date")
+            );
+            
+            host.xui_ui_div31.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div83")
+                .setDock("left")
+                .setLeft("26.666666666666668em")
+                .setTop("3.0476190476190474em")
+                .setWidth("11.504761904761905em")
+            );
+            
+            host.xui_ui_div83.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput148")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("3.8095238095238093em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Tanggal Selesai")
+                .setLabelHAlign("left")
+                .setType("date")
             );
             
             host.xui_ui_div19.append(
@@ -213,6 +243,378 @@ xui.Class('App.Module', 'xui.Module',{
                 .setLabelCaption("Keterangan")
                 .setLabelHAlign("left")
                 .setMultiLines(true)
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div78")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("4.495238095238095em")
+            );
+            
+            host.xui_ui_div78.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div79")
+                .setDock("left")
+                .setLeft("26.666666666666668em")
+                .setTop("3.0476190476190474em")
+                .setWidth("29.333333333333332em")
+            );
+            
+            host.xui_ui_div79.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput182")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Project Module")
+                .setLabelHAlign("left")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"item 1",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
+            );
+            
+            host.xui_ui_div78.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div85")
+                .setDock("left")
+                .setLeft("26.666666666666668em")
+                .setTop("3.0476190476190474em")
+                .setWidth("11.504761904761905em")
+            );
+            
+            host.xui_ui_div85.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput149")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("3.8095238095238093em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Tanggal Deadline")
+                .setLabelHAlign("left")
+                .setType("date")
+            );
+            
+            host.xui_ui_div78.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div210")
+                .setDock("left")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("43.42857142857143em")
+                .setTop("1.5238095238095237em")
+                .setWidth("8.152380952380952em")
+            );
+            
+            host.xui_ui_div210.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input43")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setLeft("3.8095238095238093em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Target Jam")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div80")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("4.495238095238095em")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div234")
+                .setDock("left")
+                .setLeft("6.095238095238095em")
+                .setTop("3.0476190476190474em")
+                .setWidth("17.295238095238094em")
+            );
+            
+            host.xui_ui_div234.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input49")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Current User")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div235")
+                .setDock("left")
+                .setLeft("15.238095238095237em")
+                .setTop("1.5238095238095237em")
+                .setWidth("12.19047619047619em")
+            );
+            
+            host.xui_ui_div235.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input50")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Last Access")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div236")
+                .setDock("left")
+                .setLeft("29.714285714285715em")
+                .setTop("1.5238095238095237em")
+            );
+            
+            host.xui_ui_div236.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input51")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("6.095238095238095em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Working Days")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div237")
+                .setDock("left")
+                .setLeft("35.04761904761905em")
+                .setTop("0em")
+            );
+            
+            host.xui_ui_div237.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input52")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("0.7619047619047619em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Working Hour")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div81")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("13.028571428571428em")
+            );
+            
+            host.xui_ui_div81.append(
+                xui.create("xui.UI.TreeGrid")
+                .setHost(host,"xui_ui_treegrid6")
+                .setDirtyMark(false)
+                .setDock("left")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("35.50476190476191em")
+                .setEditable(true)
+                .setRowHandler(false)
+                .setHeader([
+                    {
+                        "id":"combobox",
+                        "caption":"Position",
+                        "required":true,
+                        "type":"label",
+                        "width":"15.00952380952381em",
+                        "editorListItems":[
+                            {
+                                "id":"1",
+                                "caption":"asd"
+                            },
+                            {
+                                "id":"2",
+                                "caption":"sd"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"listbox",
+                        "caption":"User",
+                        "required":true,
+                        "type":"combobox",
+                        "width":"20.038095238095238em"
+                    }
+                ])
+                .setRows([
+                    {
+                        "id":"a",
+                        "cells":[
+                            {
+                                "value":"Analyst",
+                                "caption":"Analyst"
+                            },
+                            {
+                                "value":"Designer",
+                                "caption":"Mira"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"b",
+                        "cells":[
+                            {
+                                "value":"",
+                                "caption":"Design"
+                            },
+                            {
+                                "value":"",
+                                "caption":"Mei"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"c",
+                        "cells":[
+                            {
+                                "value":"1",
+                                "caption":"Developer"
+                            },
+                            {
+                                "value":"2",
+                                "caption":"Agus"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"d",
+                        "cells":[
+                            {
+                                "value":"1",
+                                "caption":"QA"
+                            },
+                            {
+                                "value":"2",
+                                "caption":"Fina"
+                            }
+                        ]
+                    }
+                ])
             );
             
             return children;
