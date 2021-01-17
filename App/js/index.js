@@ -137,13 +137,13 @@ xui.Class('App', 'xui.Module',{
                         "id":"1",
                         "caption":"Project",
                         "type":"label",
-                        "width":"8em"
+                        "width":"20.038095238095238em"
                     },
                     {
                         "id":"2",
                         "caption":"Module",
                         "type":"label",
-                        "width":"8em"
+                        "width":"17.98095238095238em"
                     },
                     {
                         "id":"3",
@@ -174,120 +174,66 @@ xui.Class('App', 'xui.Module',{
                     {
                         "cells":[
                             {
-                                "value":""
+                                "value":"Financial Distribution Company"
                             },
                             {
-                                "value":""
+                                "value":"Pembelian"
                             },
                             {
-                                "value":""
+                                "value":"13 Jan 2021"
                             },
                             {
-                                "value":""
+                                "value":"Mira"
                             },
                             {
-                                "value":""
+                                "value":"Error"
                             },
                             {
-                                "value":""
+                                "value":"Comment"
                             }
                         ]
                     },
                     {
                         "cells":[
                             {
-                                "value":"label2"
+                                "value":"Financial Distribution Company"
                             },
                             {
-                                "value":"input2"
+                                "value":"Penjualan"
                             },
                             {
-                                "value":""
+                                "value":"14 Jan 2021"
                             },
                             {
-                                "value":""
+                                "value":"Agus"
                             },
                             {
-                                "value":""
+                                "value":"Develop"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"02:00"
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"#F0F0F0"
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":123
-                            },
-                            {
-                                "value":56.32
+                                "value":"Assign"
                             }
                         ]
                     },
                     {
                         "cells":[
                             {
-                                "value":"label3"
+                                "value":"Bank Note Assigment"
                             },
                             {
-                                "value":"input3"
+                                "value":"Form Allocation"
                             },
                             {
-                                "value":""
+                                "value":"12 Jan 2021"
                             },
                             {
-                                "value":""
+                                "value":"Fina"
                             },
                             {
-                                "value":""
+                                "value":"Checking"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"03:00"
-                            },
-                            {
-                                "value":"2021-01-17 21:01:50"
-                            },
-                            {
-                                "value":"#0F0F0F"
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":233.55
-                            },
-                            {
-                                "value":43.53
+                                "value":"Comment"
                             }
                         ]
                     }
