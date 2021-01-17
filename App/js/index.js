@@ -21,6 +21,14 @@ xui.Class('App', 'xui.Module',{
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
             append(
+                xui.create("xui.UI.Panel")
+                .setHost(host,"xui_ui_panel4")
+                .setLeft("9.904761904761905em")
+                .setTop("25.142857142857142em")
+                .setCaption("Project")
+            );
+            
+            host.xui_ui_panel4.append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div19")
                 .setDock("fill")
@@ -34,33 +42,46 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div20")
                 .setDock("top")
-                .setHeight("2.361904761904762em")
+                .setHeight("1.1428571428571428em")
             );
             
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div22")
+                .setHost(host,"xui_ui_div31")
                 .setDock("top")
-                .setDockMargin({
-                    "left":20,
-                    "top":0,
-                    "right":20,
-                    "bottom":0
-                })
-                .setLeft("1.5238095238095237em")
-                .setTop("0.7619047619047619em")
-                .setHeight("2.361904761904762em")
-                .onDock("_xui_ui_div22_ondock")
+                .setLeft("11.428571428571429em")
+                .setTop("17.523809523809526em")
+                .setHeight("6.857142857142857em")
             );
             
-            host.xui_ui_div22.append(
-                xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label8")
+            host.xui_ui_div31.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div32")
                 .setDock("left")
-                .setLeft("6.857142857142857em")
-                .setTop("4.571428571428571em")
-                .setCaption("Project Name")
-                .setFontSize("18px")
+                .setLeft("5.333333333333333em")
+                .setTop("6.857142857142857em")
+            );
+            
+            host.xui_ui_div32.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input5")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setLeft("3.0476190476190474em")
+                .setTop("3.8095238095238093em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelPos("top")
+                .setLabelCaption("Input")
+                .setLabelHAlign("center")
+            );
+            
+            host.xui_ui_div31.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div33")
+                .setDock("left")
+                .setLeft("17.523809523809526em")
+                .setTop("3.0476190476190474em")
             );
             
             return children;
