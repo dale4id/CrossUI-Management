@@ -85,422 +85,7 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Module Name")
-                .setLabelHAlign("left")
-            );
-            
-            host.xui_ui_div31.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div33")
-                .setDock("left")
-                .setLeft("17.523809523809526em")
-                .setTop("3.0476190476190474em")
-            );
-            
-            host.xui_ui_div33.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput132")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.0476190476190474em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Status")
-                .setLabelHAlign("left")
-                .setItems([
-                    {
-                        "id":"a",
-                        "caption":"item 1",
-                        "imageClass":"xui-icon-number1"
-                    },
-                    {
-                        "id":"b",
-                        "caption":"item 2",
-                        "imageClass":"xui-icon-number2"
-                    },
-                    {
-                        "id":"c",
-                        "caption":"item 3",
-                        "imageClass":"xui-icon-number3"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"item 4",
-                        "imageClass":"xui-icon-number4",
-                        "disabled":true
-                    }
-                ])
-            );
-            
-            host.xui_ui_div31.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div77")
-                .setDock("left")
-                .setLeft("26.666666666666668em")
-                .setTop("3.0476190476190474em")
-                .setWidth("11.504761904761905em")
-            );
-            
-            host.xui_ui_div77.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput147")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.8095238095238093em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Tanggal Mulai")
-                .setLabelHAlign("left")
-                .setType("date")
-            );
-            
-            host.xui_ui_div31.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div83")
-                .setDock("left")
-                .setLeft("26.666666666666668em")
-                .setTop("3.0476190476190474em")
-                .setWidth("11.504761904761905em")
-            );
-            
-            host.xui_ui_div83.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput148")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.8095238095238093em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Tanggal Selesai")
-                .setLabelHAlign("left")
-                .setType("date")
-            );
-            
-            host.xui_ui_div19.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div34")
-                .setDock("top")
-                .setDockMargin({
-                    "left":10,
-                    "top":0,
-                    "right":10,
-                    "bottom":0
-                })
-                .setLeft("11.428571428571429em")
-                .setTop("17.523809523809526em")
-                .setHeight("12.952380952380953em")
-            );
-            
-            host.xui_ui_div34.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div60")
-                .setDock("left")
-                .setLeft("8.380952380952381em")
-                .setTop("4.571428571428571em")
-                .setWidth("41.98095238095238em")
-            );
-            
-            host.xui_ui_div60.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input18")
-                .setDirtyMark(false)
-                .setDock("fill")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("7.619047619047619em")
-                .setTop("6.857142857142857em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Keterangan")
-                .setLabelHAlign("left")
-                .setMultiLines(true)
-            );
-            
-            host.xui_ui_div19.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div78")
-                .setDock("top")
-                .setDockMargin({
-                    "left":10,
-                    "top":0,
-                    "right":10,
-                    "bottom":0
-                })
-                .setLeft("11.428571428571429em")
-                .setTop("17.523809523809526em")
-                .setHeight("4.495238095238095em")
-            );
-            
-            host.xui_ui_div78.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div79")
-                .setDock("left")
-                .setLeft("26.666666666666668em")
-                .setTop("3.0476190476190474em")
-                .setWidth("29.333333333333332em")
-            );
-            
-            host.xui_ui_div79.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput182")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("5.333333333333333em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Project Module")
-                .setLabelHAlign("left")
-                .setItems([
-                    {
-                        "id":"a",
-                        "caption":"item 1",
-                        "imageClass":"xui-icon-number1"
-                    },
-                    {
-                        "id":"b",
-                        "caption":"item 2",
-                        "imageClass":"xui-icon-number2"
-                    },
-                    {
-                        "id":"c",
-                        "caption":"item 3",
-                        "imageClass":"xui-icon-number3"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"item 4",
-                        "imageClass":"xui-icon-number4",
-                        "disabled":true
-                    }
-                ])
-            );
-            
-            host.xui_ui_div78.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div85")
-                .setDock("left")
-                .setLeft("26.666666666666668em")
-                .setTop("3.0476190476190474em")
-                .setWidth("11.504761904761905em")
-            );
-            
-            host.xui_ui_div85.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput149")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.8095238095238093em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Tanggal Deadline")
-                .setLabelHAlign("left")
-                .setType("date")
-            );
-            
-            host.xui_ui_div78.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div210")
-                .setDock("left")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("43.42857142857143em")
-                .setTop("1.5238095238095237em")
-                .setWidth("8.152380952380952em")
-            );
-            
-            host.xui_ui_div210.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input43")
-                .setDirtyMark(false)
-                .setDock("top")
-                .setLeft("3.8095238095238093em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Target Jam")
-                .setLabelHAlign("left")
-            );
-            
-            host.xui_ui_div19.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div80")
-                .setDock("top")
-                .setDockMargin({
-                    "left":10,
-                    "top":0,
-                    "right":10,
-                    "bottom":0
-                })
-                .setLeft("11.428571428571429em")
-                .setTop("17.523809523809526em")
-                .setHeight("4.495238095238095em")
-            );
-            
-            host.xui_ui_div80.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div234")
-                .setDock("left")
-                .setLeft("6.095238095238095em")
-                .setTop("3.0476190476190474em")
-                .setWidth("17.295238095238094em")
-            );
-            
-            host.xui_ui_div234.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input49")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("5.333333333333333em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Current User")
-                .setLabelHAlign("left")
-            );
-            
-            host.xui_ui_div80.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div235")
-                .setDock("left")
-                .setLeft("15.238095238095237em")
-                .setTop("1.5238095238095237em")
-                .setWidth("12.19047619047619em")
-            );
-            
-            host.xui_ui_div235.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input50")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("5.333333333333333em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Last Access")
-                .setLabelHAlign("left")
-            );
-            
-            host.xui_ui_div80.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div236")
-                .setDock("left")
-                .setLeft("29.714285714285715em")
-                .setTop("1.5238095238095237em")
-            );
-            
-            host.xui_ui_div236.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input51")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("6.095238095238095em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Working Days")
-                .setLabelHAlign("left")
-            );
-            
-            host.xui_ui_div80.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div237")
-                .setDock("left")
-                .setLeft("35.04761904761905em")
-                .setTop("0em")
-            );
-            
-            host.xui_ui_div237.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input52")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("5.333333333333333em")
-                .setTop("0.7619047619047619em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Working Hour")
+                .setLabelCaption("User")
                 .setLabelHAlign("left")
             );
             
@@ -520,97 +105,189 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_div81.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div349")
+                .setDock("top")
+                .setLeft("13.714285714285714em")
+                .setTop("6.095238095238095em")
+                .setHeight("1.6em")
+            );
+            
+            host.xui_ui_div349.append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label9")
+                .setDock("fill")
+                .setLeft("3.8095238095238093em")
+                .setTop("1.5238095238095237em")
+                .setCaption("Module")
+                .setHAlign("left")
+                .setFontWeight("bold")
+            );
+            
+            host.xui_ui_div81.append(
                 xui.create("xui.UI.TreeGrid")
-                .setHost(host,"xui_ui_treegrid6")
+                .setHost(host,"xui_ui_treegrid23")
                 .setDirtyMark(false)
-                .setDock("left")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("35.50476190476191em")
                 .setEditable(true)
                 .setRowHandler(false)
                 .setHeader([
                     {
-                        "id":"combobox",
-                        "caption":"Position",
-                        "required":true,
+                        "id":"1",
+                        "caption":"Project",
                         "type":"label",
-                        "width":"15.00952380952381em",
-                        "editorListItems":[
-                            {
-                                "id":"1",
-                                "caption":"asd"
-                            },
-                            {
-                                "id":"2",
-                                "caption":"sd"
-                            }
-                        ]
+                        "width":"8em"
                     },
                     {
-                        "id":"listbox",
-                        "caption":"User",
-                        "required":true,
-                        "type":"combobox",
-                        "width":"20.038095238095238em"
+                        "id":"2",
+                        "caption":"Module",
+                        "type":"label",
+                        "width":"8em"
+                    },
+                    {
+                        "id":"3",
+                        "caption":"Date Assign",
+                        "type":"label",
+                        "width":"8em"
+                    },
+                    {
+                        "id":"4",
+                        "caption":"Current User",
+                        "type":"label",
+                        "width":"8em"
+                    },
+                    {
+                        "id":"5",
+                        "caption":"Status",
+                        "type":"label",
+                        "width":"8em"
+                    },
+                    {
+                        "id":"6",
+                        "caption":"Response",
+                        "type":"button",
+                        "width":"8em"
                     }
                 ])
                 .setRows([
                     {
-                        "id":"a",
                         "cells":[
                             {
-                                "value":"Analyst",
-                                "caption":"Analyst"
+                                "value":""
                             },
                             {
-                                "value":"Designer",
-                                "caption":"Mira"
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
                             }
                         ]
                     },
                     {
-                        "id":"b",
                         "cells":[
                             {
-                                "value":"",
-                                "caption":"Design"
+                                "value":"label2"
                             },
                             {
-                                "value":"",
-                                "caption":"Mei"
+                                "value":"input2"
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":"2021-01-17 21:01:50"
+                            },
+                            {
+                                "value":"02:00"
+                            },
+                            {
+                                "value":"2021-01-17 21:01:50"
+                            },
+                            {
+                                "value":"#F0F0F0"
+                            },
+                            {
+                                "value":0.13
+                            },
+                            {
+                                "value":0.13
+                            },
+                            {
+                                "value":123
+                            },
+                            {
+                                "value":56.32
                             }
                         ]
                     },
                     {
-                        "id":"c",
                         "cells":[
                             {
-                                "value":"1",
-                                "caption":"Developer"
+                                "value":"label3"
                             },
                             {
-                                "value":"2",
-                                "caption":"Agus"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"d",
-                        "cells":[
-                            {
-                                "value":"1",
-                                "caption":"QA"
+                                "value":"input3"
                             },
                             {
-                                "value":"2",
-                                "caption":"Fina"
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":"2021-01-17 21:01:50"
+                            },
+                            {
+                                "value":"03:00"
+                            },
+                            {
+                                "value":"2021-01-17 21:01:50"
+                            },
+                            {
+                                "value":"#0F0F0F"
+                            },
+                            {
+                                "value":0.14
+                            },
+                            {
+                                "value":0.14
+                            },
+                            {
+                                "value":233.55
+                            },
+                            {
+                                "value":43.53
                             }
                         ]
                     }
