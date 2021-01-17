@@ -170,6 +170,12 @@ xui.Class('App', 'xui.Module',{
                         "caption":"Response",
                         "type":"button",
                         "width":"8em"
+                    },
+                    {
+                        "id":"7",
+                        "caption":"Task",
+                        "type":"button",
+                        "width":"8em"
                     }
                 ])
                 .setRows([
@@ -192,6 +198,9 @@ xui.Class('App', 'xui.Module',{
                             },
                             {
                                 "value":"Comment"
+                            },
+                            {
+                                "value":"Create"
                             }
                         ]
                     },
@@ -214,6 +223,9 @@ xui.Class('App', 'xui.Module',{
                             },
                             {
                                 "value":"Assign"
+                            },
+                            {
+                                "value":"Create"
                             }
                         ]
                     },
@@ -236,6 +248,9 @@ xui.Class('App', 'xui.Module',{
                             },
                             {
                                 "value":"Comment"
+                            },
+                            {
+                                "value":"Create"
                             }
                         ]
                     }
