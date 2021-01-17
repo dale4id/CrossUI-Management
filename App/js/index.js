@@ -73,6 +73,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input9")
                 .setDirtyMark(false)
+                .setDisabled(true)
                 .setDock("top")
                 .setDockMargin({
                     "left":5,
@@ -87,6 +88,7 @@ xui.Class('App', 'xui.Module',{
                 .setLabelPos("top")
                 .setLabelCaption("User")
                 .setLabelHAlign("left")
+                .setValue("Agus")
             );
             
             host.xui_ui_div19.append(
