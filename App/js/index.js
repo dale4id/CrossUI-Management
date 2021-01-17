@@ -386,6 +386,124 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4.495238095238095em")
             );
             
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div234")
+                .setDock("left")
+                .setLeft("6.095238095238095em")
+                .setTop("3.0476190476190474em")
+                .setWidth("17.295238095238094em")
+            );
+            
+            host.xui_ui_div234.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input49")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Current User")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div235")
+                .setDock("left")
+                .setLeft("15.238095238095237em")
+                .setTop("1.5238095238095237em")
+                .setWidth("12.19047619047619em")
+            );
+            
+            host.xui_ui_div235.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input50")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Last Access")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div236")
+                .setDock("left")
+                .setLeft("29.714285714285715em")
+                .setTop("1.5238095238095237em")
+            );
+            
+            host.xui_ui_div236.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input51")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("6.095238095238095em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Working Days")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div80.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div237")
+                .setDock("left")
+                .setLeft("35.04761904761905em")
+                .setTop("0em")
+            );
+            
+            host.xui_ui_div237.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input52")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("0.7619047619047619em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Working Hour")
+                .setLabelHAlign("left")
+            );
+            
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div81")
