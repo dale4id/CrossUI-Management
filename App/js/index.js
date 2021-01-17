@@ -80,6 +80,12 @@ xui.Class('App', 'xui.Module',{
                 .setLabelPos("top")
                 .setLabelCaption("Top Label")
                 .setLabelHAlign("left")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
             );
             
             host.xui_ui_div31.append(
@@ -88,6 +94,49 @@ xui.Class('App', 'xui.Module',{
                 .setDock("left")
                 .setLeft("17.523809523809526em")
                 .setTop("3.0476190476190474em")
+            );
+            
+            host.xui_ui_div33.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput132")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setLeft("3.0476190476190474em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Top Label")
+                .setLabelHAlign("left")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"item 1",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
             );
             
             host.xui_ui_div19.append(
@@ -115,39 +164,24 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_div60.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div61")
-                .setDock("top")
-                .setLeft("8.380952380952381em")
-                .setTop("6.095238095238095em")
-                .setHeight("3.8857142857142857em")
-            );
-            
-            host.xui_ui_div61.append(
-                xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label2")
-                .setDock("fill")
-                .setLeft("6.857142857142857em")
-                .setTop("1.5238095238095237em")
-                .setCaption("Label")
-            );
-            
-            host.xui_ui_div60.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input14")
+                .setHost(host,"xui_ui_input18")
                 .setDirtyMark(false)
                 .setDock("fill")
-                .setLeft("5.333333333333333em")
-                .setTop("12.19047619047619em")
-                .setWidth("18em")
-                .setHeight("10em")
-                .setLabelSize("8em")
+                .setLeft("7.619047619047619em")
+                .setTop("6.857142857142857em")
+                .setHeight("4em")
+                .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Text Area")
-                .setLabelHAlign("center")
-                .setHAlign("center")
+                .setLabelCaption("Top Label")
+                .setLabelHAlign("left")
                 .setMultiLines(true)
-                .setValue("asdasd")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
             );
             
             return children;
