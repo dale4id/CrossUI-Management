@@ -49,6 +49,12 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div31")
                 .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
                 .setLeft("11.428571428571429em")
                 .setTop("17.523809523809526em")
                 .setHeight("6.857142857142857em")
@@ -64,16 +70,16 @@ xui.Class('App', 'xui.Module',{
             
             host.xui_ui_div32.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input5")
+                .setHost(host,"xui_ui_input9")
                 .setDirtyMark(false)
                 .setDock("top")
-                .setLeft("3.0476190476190474em")
-                .setTop("3.8095238095238093em")
-                .setWidth("18em")
-                .setLabelSize("8em")
+                .setLeft("0.7619047619047619em")
+                .setTop("5.333333333333333em")
+                .setHeight("4em")
+                .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Input")
-                .setLabelHAlign("center")
+                .setLabelCaption("Top Label")
+                .setLabelHAlign("left")
             );
             
             host.xui_ui_div31.append(
