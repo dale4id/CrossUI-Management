@@ -531,12 +531,24 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"combobox",
                         "caption":"User",
+                        "required":true,
                         "type":"combobox",
-                        "width":"8em"
+                        "width":"8em",
+                        "editorListItems":[
+                            {
+                                "id":"1",
+                                "caption":"asd"
+                            },
+                            {
+                                "id":"2",
+                                "caption":"sd"
+                            }
+                        ]
                     },
                     {
                         "id":"listbox",
                         "caption":"listbox",
+                        "required":true,
                         "type":"combobox",
                         "width":"8em"
                     }
