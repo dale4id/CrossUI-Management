@@ -167,12 +167,18 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id":"6",
+                        "caption":"Progress",
+                        "type":"label",
+                        "width":"8em"
+                    },
+                    {
+                        "id":"7",
                         "caption":"Response",
                         "type":"button",
                         "width":"8em"
                     },
                     {
-                        "id":"7",
+                        "id":"8",
                         "caption":"Task",
                         "type":"button",
                         "width":"8em"
@@ -195,6 +201,9 @@ xui.Class('App', 'xui.Module',{
                             },
                             {
                                 "value":"Error"
+                            },
+                            {
+                                "value":"14/23"
                             },
                             {
                                 "value":"Comment"
@@ -222,6 +231,9 @@ xui.Class('App', 'xui.Module',{
                                 "value":"Develop"
                             },
                             {
+                                "value":"23/24"
+                            },
+                            {
                                 "value":"Assign"
                             },
                             {
@@ -245,6 +257,9 @@ xui.Class('App', 'xui.Module',{
                             },
                             {
                                 "value":"Checking"
+                            },
+                            {
+                                "value":"12/34"
                             },
                             {
                                 "value":"Comment"
