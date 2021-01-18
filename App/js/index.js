@@ -25,7 +25,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_panel4")
                 .setLeft("9.904761904761905em")
                 .setTop("25.142857142857142em")
-                .setCaption("Module")
+                .setCaption("Module Info")
             );
             
             host.xui_ui_panel4.append(
