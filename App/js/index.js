@@ -94,7 +94,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div81")
-                .setDock("top")
+                .setDock("fill")
                 .setDockMargin({
                     "left":10,
                     "top":0,
