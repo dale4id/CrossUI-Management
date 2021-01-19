@@ -158,7 +158,7 @@ xui.Class('App', 'xui.Module',{
                 .setLabelPos("top")
                 .setLabelCaption("Date Assign")
                 .setLabelHAlign("left")
-                .setValue("14 Jan 2021")
+                .setValue("7 Jan 2021")
             );
             
             host.xui_ui_div46.append(
@@ -350,7 +350,7 @@ xui.Class('App', 'xui.Module',{
                 })
                 .setLeft("4.571428571428571em")
                 .setTop("4.571428571428571em")
-                .setCaption("Button")
+                .setCaption("Assign")
             );
             
             host.xui_ui_div61.append(
