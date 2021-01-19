@@ -334,6 +334,7 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     }
                 ])
+                .setValue("Fina")
             );
             
             host.xui_ui_div62.append(
@@ -380,6 +381,7 @@ xui.Class('App', 'xui.Module',{
                 .setLabelCaption("Description")
                 .setLabelHAlign("left")
                 .setMultiLines(true)
+                .setValue("Error sudah selesai di perbaiki, mohon di cek kembali")
             );
             
             host.xui_ui_group1.append(
@@ -575,25 +577,25 @@ xui.Class('App', 'xui.Module',{
                         "id":"6",
                         "cells":[
                             {
-                                "value":""
+                                "value":"Agus"
+                            },
+                            {
+                                "value":"7 Jan 2021 12:05"
                             },
                             {
                                 "value":""
                             },
                             {
-                                "value":""
+                                "value":"Fina"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 13:09"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 13:10"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
+                                "value":"7 Jan 2021 14:02"
                             }
                         ]
                     },
@@ -601,25 +603,25 @@ xui.Class('App', 'xui.Module',{
                         "id":"7",
                         "cells":[
                             {
-                                "value":""
+                                "value":"Fina"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 14:02"
                             },
                             {
-                                "value":""
+                                "value":"Ada error pada tombol perhitungan diskon"
                             },
                             {
-                                "value":""
+                                "value":"Agus"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 14:05"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 14:06"
                             },
                             {
-                                "value":""
+                                "value":"7 Jan 2021 15:13"
                             }
                         ]
                     }
