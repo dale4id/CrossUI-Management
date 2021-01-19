@@ -86,190 +86,186 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("User")
+                .setLabelCaption("Project")
                 .setLabelHAlign("left")
-                .setValue("Agus")
+                .setValue("Financial Distribution Company")
+            );
+            
+            host.xui_ui_div31.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div45")
+                .setDock("left")
+                .setLeft("27.428571428571427em")
+                .setTop("0.7619047619047619em")
+                .setWidth("18.20952380952381em")
+            );
+            
+            host.xui_ui_div45.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input3")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setLeft("12.19047619047619em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Module")
+                .setLabelHAlign("left")
+                .setValue("Pembelian")
             );
             
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div81")
-                .setDock("fill")
+                .setHost(host,"xui_ui_div46")
+                .setDock("top")
                 .setDockMargin({
                     "left":10,
                     "top":0,
                     "right":10,
                     "bottom":0
                 })
-                .setLeft("11.428571428571429em")
-                .setTop("17.523809523809526em")
-                .setHeight("13.028571428571428em")
+                .setLeft("14.476190476190476em")
+                .setTop("13.714285714285714em")
+                .setHeight("4.647619047619048em")
             );
             
-            host.xui_ui_div81.append(
+            host.xui_ui_div46.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div349")
-                .setDock("top")
-                .setLeft("13.714285714285714em")
-                .setTop("6.095238095238095em")
-                .setHeight("1.6em")
+                .setHost(host,"xui_ui_div47")
+                .setDock("left")
+                .setLeft("9.904761904761905em")
+                .setTop("3.0476190476190474em")
             );
             
-            host.xui_ui_div349.append(
-                xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label9")
-                .setDock("fill")
+            host.xui_ui_div47.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input6")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("1.5238095238095237em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Date Assign")
+                .setLabelHAlign("left")
+                .setValue("14 Jan 2021")
+            );
+            
+            host.xui_ui_div46.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div48")
+                .setDock("left")
+                .setLeft("33.523809523809526em")
+                .setTop("2.2857142857142856em")
+            );
+            
+            host.xui_ui_div48.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input5")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("2.2857142857142856em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Current User")
+                .setLabelHAlign("left")
+                .setValue("Agus")
+            );
+            
+            host.xui_ui_div46.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div49")
+                .setDock("left")
+                .setLeft("27.428571428571427em")
+                .setTop("3.0476190476190474em")
+            );
+            
+            host.xui_ui_div49.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input7")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("3.8095238095238093em")
+                .setTop("0.7619047619047619em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Status")
+                .setLabelHAlign("left")
+                .setValue("Develop")
+            );
+            
+            host.xui_ui_div46.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div50")
+                .setDock("left")
+                .setLeft("37.333333333333336em")
+                .setTop("3.0476190476190474em")
+            );
+            
+            host.xui_ui_div50.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input8")
+                .setDirtyMark(false)
+                .setDisabled(true)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
                 .setLeft("3.8095238095238093em")
                 .setTop("1.5238095238095237em")
-                .setCaption("Module")
-                .setHAlign("left")
-                .setFontWeight("bold")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Progress")
+                .setLabelHAlign("left")
+                .setValue("23/24")
             );
             
-            host.xui_ui_div81.append(
-                xui.create("xui.UI.TreeGrid")
-                .setHost(host,"xui_ui_treegrid23")
-                .setDirtyMark(false)
-                .setLeft("0em")
-                .setTop("0em")
-                .setEditable(true)
-                .setRowHandler(false)
-                .setHeader([
-                    {
-                        "id":"1",
-                        "caption":"Project",
-                        "type":"label",
-                        "width":"20.038095238095238em"
-                    },
-                    {
-                        "id":"2",
-                        "caption":"Module",
-                        "type":"label",
-                        "width":"17.98095238095238em"
-                    },
-                    {
-                        "id":"3",
-                        "caption":"Date Assign",
-                        "type":"label",
-                        "width":"8em"
-                    },
-                    {
-                        "id":"4",
-                        "caption":"Current User",
-                        "type":"label",
-                        "width":"8em"
-                    },
-                    {
-                        "id":"5",
-                        "caption":"Status",
-                        "type":"label",
-                        "width":"8em"
-                    },
-                    {
-                        "id":"6",
-                        "caption":"Progress",
-                        "type":"label",
-                        "width":"8em"
-                    },
-                    {
-                        "id":"7",
-                        "caption":"Response",
-                        "type":"button",
-                        "width":"8em"
-                    },
-                    {
-                        "id":"8",
-                        "caption":"Task",
-                        "type":"button",
-                        "width":"8em"
-                    }
-                ])
-                .setRows([
-                    {
-                        "cells":[
-                            {
-                                "value":"Financial Distribution Company"
-                            },
-                            {
-                                "value":"Pembelian"
-                            },
-                            {
-                                "value":"13 Jan 2021"
-                            },
-                            {
-                                "value":"Mira"
-                            },
-                            {
-                                "value":"Error"
-                            },
-                            {
-                                "value":"14/23"
-                            },
-                            {
-                                "value":"Comment"
-                            },
-                            {
-                                "value":"Create"
-                            }
-                        ]
-                    },
-                    {
-                        "cells":[
-                            {
-                                "value":"Financial Distribution Company"
-                            },
-                            {
-                                "value":"Penjualan"
-                            },
-                            {
-                                "value":"14 Jan 2021"
-                            },
-                            {
-                                "value":"Agus"
-                            },
-                            {
-                                "value":"Develop"
-                            },
-                            {
-                                "value":"23/24"
-                            },
-                            {
-                                "value":"Assign"
-                            },
-                            {
-                                "value":"Create"
-                            }
-                        ]
-                    },
-                    {
-                        "cells":[
-                            {
-                                "value":"Bank Note Assigment"
-                            },
-                            {
-                                "value":"Form Allocation"
-                            },
-                            {
-                                "value":"12 Jan 2021"
-                            },
-                            {
-                                "value":"Fina"
-                            },
-                            {
-                                "value":"Checking"
-                            },
-                            {
-                                "value":"12/34"
-                            },
-                            {
-                                "value":"Comment"
-                            },
-                            {
-                                "value":"Create"
-                            }
-                        ]
-                    }
-                ])
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Group")
+                .setHost(host,"xui_ui_group1")
+                .setDock("top")
+                .setDockMargin({
+                    "left":10,
+                    "top":0,
+                    "right":10,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("19.047619047619047em")
+                .setWidth("18em")
+                .setCaption("Group")
+                .setToggleBtn(false)
             );
             
             return children;
