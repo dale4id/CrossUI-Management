@@ -409,7 +409,7 @@ xui.Class('App', 'xui.Module',{
                         "id":"2",
                         "caption":"Assign Date",
                         "type":"label",
-                        "width":"12.038095238095238em",
+                        "width":"9.980952380952381em",
                         "colResizer":true
                     },
                     {
@@ -430,21 +430,21 @@ xui.Class('App', 'xui.Module',{
                         "id":"5",
                         "caption":"Accept Date",
                         "type":"label",
-                        "width":"12.038095238095238em",
+                        "width":"9.980952380952381em",
                         "colResizer":true
                     },
                     {
                         "id":"6",
                         "caption":"Start Time",
                         "type":"label",
-                        "width":"12.038095238095238em",
+                        "width":"9.980952380952381em",
                         "colResizer":true
                     },
                     {
                         "id":"7",
                         "caption":"End TIme",
                         "type":"label",
-                        "width":"12.038095238095238em",
+                        "width":"9.980952380952381em",
                         "colResizer":true
                     }
                 ])
