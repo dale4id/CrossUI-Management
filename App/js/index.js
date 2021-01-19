@@ -118,143 +118,22 @@ xui.Class('App', 'xui.Module',{
             
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div46")
-                .setDock("top")
+                .setHost(host,"xui_ui_div248")
+                .setDock("fill")
                 .setDockMargin({
                     "left":10,
                     "top":0,
                     "right":10,
                     "bottom":0
                 })
-                .setLeft("14.476190476190476em")
-                .setTop("13.714285714285714em")
-                .setHeight("4.647619047619048em")
+                .setLeft("18.285714285714285em")
+                .setTop("19.047619047619047em")
             );
             
-            host.xui_ui_div46.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div47")
-                .setDock("left")
-                .setLeft("9.904761904761905em")
-                .setTop("3.0476190476190474em")
-            );
-            
-            host.xui_ui_div47.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input6")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("5.333333333333333em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Date Assign")
-                .setLabelHAlign("left")
-                .setValue("7 Jan 2021")
-            );
-            
-            host.xui_ui_div46.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div48")
-                .setDock("left")
-                .setLeft("33.523809523809526em")
-                .setTop("2.2857142857142856em")
-            );
-            
-            host.xui_ui_div48.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input5")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("2.2857142857142856em")
-                .setTop("2.2857142857142856em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Current User")
-                .setLabelHAlign("left")
-                .setValue("Agus")
-            );
-            
-            host.xui_ui_div46.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div49")
-                .setDock("left")
-                .setLeft("27.428571428571427em")
-                .setTop("3.0476190476190474em")
-            );
-            
-            host.xui_ui_div49.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input7")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.8095238095238093em")
-                .setTop("0.7619047619047619em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Status")
-                .setLabelHAlign("left")
-                .setValue("Develop")
-            );
-            
-            host.xui_ui_div46.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div50")
-                .setDock("left")
-                .setLeft("37.333333333333336em")
-                .setTop("3.0476190476190474em")
-            );
-            
-            host.xui_ui_div50.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input8")
-                .setDirtyMark(false)
-                .setDisabled(true)
-                .setDock("top")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("3.8095238095238093em")
-                .setTop("1.5238095238095237em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Progress")
-                .setLabelHAlign("left")
-                .setValue("23/24")
-            );
-            
-            host.xui_ui_div19.append(
+            host.xui_ui_div248.append(
                 xui.create("xui.UI.Group")
                 .setHost(host,"xui_ui_group1")
-                .setDock("fill")
+                .setDock("top")
                 .setDockMargin({
                     "left":10,
                     "top":0,
@@ -264,38 +143,32 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("5.333333333333333em")
                 .setTop("19.047619047619047em")
                 .setWidth("18em")
-                .setHeight("28.876190476190477em")
+                .setHeight("13.638095238095238em")
                 .setCaption("Group")
                 .setToggleBtn(false)
             );
             
             host.xui_ui_group1.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div61")
+                .setHost(host,"xui_ui_div249")
                 .setDock("top")
-                .setDockMargin({
-                    "left":10,
-                    "top":0,
-                    "right":10,
-                    "bottom":0
-                })
-                .setLeft("8.380952380952381em")
-                .setTop("1.5238095238095237em")
-                .setHeight("6.628571428571429em")
+                .setLeft("16.761904761904763em")
+                .setTop("11.428571428571429em")
+                .setHeight("4.647619047619048em")
             );
             
-            host.xui_ui_div61.append(
+            host.xui_ui_div249.append(
                 xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div62")
+                .setHost(host,"xui_ui_div252")
                 .setDock("left")
-                .setLeft("3.8095238095238093em")
-                .setTop("2.2857142857142856em")
-                .setWidth("17.066666666666666em")
+                .setLeft("12.952380952380953em")
+                .setTop("1.5238095238095237em")
+                .setWidth("17.904761904761905em")
             );
             
-            host.xui_ui_div62.append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput50")
+            host.xui_ui_div252.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input96")
                 .setDirtyMark(false)
                 .setDock("top")
                 .setDockMargin({
@@ -304,12 +177,41 @@ xui.Class('App', 'xui.Module',{
                     "right":5,
                     "bottom":0
                 })
-                .setLeft("3.0476190476190474em")
+                .setLeft("8.380952380952381em")
                 .setTop("2.2857142857142856em")
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Assign To")
+                .setLabelCaption("Top Label")
+                .setLabelHAlign("left")
+            );
+            
+            host.xui_ui_div249.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div253")
+                .setDock("left")
+                .setLeft("33.523809523809526em")
+                .setTop("2.2857142857142856em")
+                .setWidth("20.571428571428573em")
+            );
+            
+            host.xui_ui_div253.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput148")
+                .setDirtyMark(false)
+                .setDock("top")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("5.333333333333333em")
+                .setTop("3.0476190476190474em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Top Label")
                 .setLabelHAlign("left")
                 .setItems([
                     {
@@ -334,64 +236,55 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     }
                 ])
-                .setValue("Fina")
-            );
-            
-            host.xui_ui_div62.append(
-                xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button9")
-                .setDirtyMark(false)
-                .setDock("bottom")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("4.571428571428571em")
-                .setTop("4.571428571428571em")
-                .setCaption("Assign")
-            );
-            
-            host.xui_ui_div61.append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div63")
-                .setDock("fill")
-                .setLeft("18.285714285714285em")
-                .setTop("3.0476190476190474em")
-                .setWidth("37.56190476190476em")
-            );
-            
-            host.xui_ui_div63.append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input16")
-                .setDirtyMark(false)
-                .setDock("fill")
-                .setDockMargin({
-                    "left":5,
-                    "top":0,
-                    "right":5,
-                    "bottom":0
-                })
-                .setLeft("14.476190476190476em")
-                .setTop("3.8095238095238093em")
-                .setHeight("4em")
-                .setLabelSize("2em")
-                .setLabelPos("top")
-                .setLabelCaption("Description")
-                .setLabelHAlign("left")
-                .setMultiLines(true)
-                .setValue("Error sudah selesai di perbaiki, mohon di cek kembali")
             );
             
             host.xui_ui_group1.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div254")
+                .setDock("top")
+                .setLeft("16.761904761904763em")
+                .setTop("11.428571428571429em")
+                .setHeight("6.933333333333334em")
+            );
+            
+            host.xui_ui_div254.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div266")
+                .setDock("left")
+                .setLeft("8.380952380952381em")
+                .setTop("0em")
+                .setWidth("48.38095238095238em")
+            );
+            
+            host.xui_ui_div266.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input102")
+                .setDirtyMark(false)
+                .setDock("fill")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":0
+                })
+                .setLeft("9.904761904761905em")
+                .setTop("2.2857142857142856em")
+                .setHeight("4em")
+                .setLabelSize("2em")
+                .setLabelPos("top")
+                .setLabelCaption("Top Label")
+                .setLabelHAlign("left")
+                .setMultiLines(true)
+            );
+            
+            host.xui_ui_div248.append(
                 xui.create("xui.UI.TreeGrid")
-                .setHost(host,"xui_ui_treegrid8")
+                .setHost(host,"xui_ui_treegrid34")
                 .setDirtyMark(false)
                 .setDockMargin({
-                    "left":10,
+                    "left":5,
                     "top":10,
-                    "right":10,
+                    "right":5,
                     "bottom":10
                 })
                 .setLeft("0em")
@@ -401,237 +294,217 @@ xui.Class('App', 'xui.Module',{
                 .setHeader([
                     {
                         "id":"1",
-                        "caption":"Assign By",
-                        "type":"label",
+                        "caption":"Status",
+                        "type":"checkbox",
                         "width":"8em"
                     },
                     {
                         "id":"2",
-                        "caption":"Assign Date",
+                        "caption":"Name",
                         "type":"label",
-                        "width":"9.980952380952381em",
-                        "colResizer":true
+                        "width":"8em"
                     },
                     {
                         "id":"3",
-                        "caption":"Desc",
+                        "caption":"Description",
                         "type":"label",
-                        "width":"40em",
-                        "colResizer":true
+                        "width":"8em"
                     },
                     {
                         "id":"4",
-                        "caption":"Accept by",
+                        "caption":"Tags",
                         "type":"label",
-                        "width":"8em",
-                        "colResizer":true
+                        "width":"8em"
                     },
                     {
                         "id":"5",
-                        "caption":"Accept Date",
+                        "caption":"Finish By",
                         "type":"label",
-                        "width":"9.980952380952381em",
-                        "colResizer":true
-                    },
-                    {
-                        "id":"6",
-                        "caption":"Start Time",
-                        "type":"label",
-                        "width":"9.980952380952381em",
-                        "colResizer":true
-                    },
-                    {
-                        "id":"7",
-                        "caption":"End TIme",
-                        "type":"label",
-                        "width":"9.980952380952381em",
-                        "colResizer":true
+                        "width":"8em"
                     }
                 ])
                 .setRows([
                     {
-                        "id":"1",
                         "cells":[
                             {
-                                "value":"PM"
+                                "value":true
                             },
                             {
-                                "value":"30 Desc 2020 14:32"
+                                "value":"input1"
                             },
                             {
                                 "value":""
                             },
                             {
-                                "value":"Mira"
-                            },
-                            {
-                                "value":"1 Jan 2021 08:00"
-                            },
-                            {
-                                "value":"1 Jan 2021 08:00"
-                            },
-                            {
-                                "value":"3 Jan 2021 12:00"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"2",
-                        "cells":[
-                            {
-                                "value":"Mira"
-                            },
-                            {
-                                "value":"3 Jan 2021 12:10"
-                            },
-                            {
-                                "value":"FSD sudah ada di server, pada bagian save ada koneksi ke penjualan"
-                            },
-                            {
-                                "value":"Mei"
-                            },
-                            {
-                                "value":"3 Jan 2021 12:43"
-                            },
-                            {
-                                "value":"3 Jan 2021 13:17"
-                            },
-                            {
-                                "value":"3 Jan 2021 18:23"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"3",
-                        "cells":[
-                            {
-                                "value":"Mei"
-                            },
-                            {
-                                "value":"3 Jan 2021 18:37"
+                                "value":""
                             },
                             {
                                 "value":""
                             },
                             {
-                                "value":"Agus"
-                            },
-                            {
-                                "value":"4 Jan 2021 08:07"
-                            },
-                            {
-                                "value":"4 Jan 2021 08:08"
-                            },
-                            {
-                                "value":"4 Jan 2021 10:17"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"4",
-                        "cells":[
-                            {
-                                "value":"Agus"
-                            },
-                            {
-                                "value":"4 Jan 2021 10:17"
-                            },
-                            {
-                                "value":"Untuk tabel user tidak ada groupin nya"
-                            },
-                            {
-                                "value":"Mira"
-                            },
-                            {
-                                "value":"4 Jan 2021 15:23"
-                            },
-                            {
-                                "value":"5 Jan 2021 08:03"
-                            },
-                            {
-                                "value":"5 Jan 2021 11:17"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"5",
-                        "cells":[
-                            {
-                                "value":"Mira"
-                            },
-                            {
-                                "value":"5 Jan 2021 11:17"
-                            },
-                            {
-                                "value":"Table sudah di update"
-                            },
-                            {
-                                "value":"Agus"
-                            },
-                            {
-                                "value":"5 Jan 2021 11:20"
-                            },
-                            {
-                                "value":"5 Jan 2021 11:21"
-                            },
-                            {
-                                "value":"7 Jan 2021 12:05"
-                            }
-                        ]
-                    },
-                    {
-                        "id":"6",
-                        "cells":[
-                            {
-                                "value":"Agus"
-                            },
-                            {
-                                "value":"7 Jan 2021 12:05"
+                                "value":""
                             },
                             {
                                 "value":""
                             },
                             {
-                                "value":"Fina"
+                                "value":"2021-01-19 08:01:39"
                             },
                             {
-                                "value":"7 Jan 2021 13:09"
+                                "value":"00:00"
                             },
                             {
-                                "value":"7 Jan 2021 13:10"
+                                "value":"2021-01-19 08:01:39"
                             },
                             {
-                                "value":"7 Jan 2021 14:02"
+                                "value":"#FFFFFF"
+                            },
+                            {
+                                "value":12
+                            },
+                            {
+                                "value":12
+                            },
+                            {
+                                "value":23.44
+                            },
+                            {
+                                "value":43.23
                             }
                         ]
                     },
                     {
-                        "id":"7",
                         "cells":[
                             {
-                                "value":"Fina"
+                                "value":true
                             },
                             {
-                                "value":"7 Jan 2021 14:02"
+                                "value":"input2"
                             },
                             {
-                                "value":"Ada error pada tombol perhitungan diskon"
+                                "value":""
                             },
                             {
-                                "value":"Agus"
+                                "value":""
                             },
                             {
-                                "value":"7 Jan 2021 14:05"
+                                "value":""
                             },
                             {
-                                "value":"7 Jan 2021 14:06"
+                                "value":""
                             },
                             {
-                                "value":"7 Jan 2021 15:13"
+                                "value":""
+                            },
+                            {
+                                "value":"2021-01-19 08:01:39"
+                            },
+                            {
+                                "value":"02:00"
+                            },
+                            {
+                                "value":"2021-01-19 08:01:39"
+                            },
+                            {
+                                "value":"#F0F0F0"
+                            },
+                            {
+                                "value":0.13
+                            },
+                            {
+                                "value":0.13
+                            },
+                            {
+                                "value":123
+                            },
+                            {
+                                "value":56.32
+                            }
+                        ]
+                    },
+                    {
+                        "cells":[
+                            {
+                                "value":true
+                            },
+                            {
+                                "value":"input3"
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":"2021-01-19 08:01:39"
+                            },
+                            {
+                                "value":"03:00"
+                            },
+                            {
+                                "value":"2021-01-19 08:01:39"
+                            },
+                            {
+                                "value":"#0F0F0F"
+                            },
+                            {
+                                "value":0.14
+                            },
+                            {
+                                "value":0.14
+                            },
+                            {
+                                "value":233.55
+                            },
+                            {
+                                "value":43.53
                             }
                         ]
                     }
                 ])
+            );
+            
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div250")
+                .setDock("bottom")
+                .setDockMargin({
+                    "left":10,
+                    "top":10,
+                    "right":10,
+                    "bottom":10
+                })
+                .setLeft("16.761904761904763em")
+                .setTop("25.142857142857142em")
+                .setHeight("2.5142857142857142em")
+            );
+            
+            host.xui_ui_div250.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div251")
+                .setDock("right")
+                .setLeft("16.761904761904763em")
+                .setTop("2.2857142857142856em")
+            );
+            
+            host.xui_ui_div251.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button55")
+                .setDirtyMark(false)
+                .setDock("bottom")
+                .setLeft("6.095238095238095em")
+                .setTop("5.333333333333333em")
+                .setCaption("Save")
             );
             
             return children;
