@@ -409,13 +409,13 @@ xui.Class('App', 'xui.Module',{
                         "id":"2",
                         "caption":"Assign Date",
                         "type":"label",
-                        "width":"8em"
+                        "width":"12.038095238095238em"
                     },
                     {
                         "id":"3",
                         "caption":"Desc",
                         "type":"label",
-                        "width":"30.01904761904762em"
+                        "width":"40em"
                     },
                     {
                         "id":"4",
@@ -427,19 +427,19 @@ xui.Class('App', 'xui.Module',{
                         "id":"5",
                         "caption":"Accept Date",
                         "type":"label",
-                        "width":"8em"
+                        "width":"12.038095238095238em"
                     },
                     {
                         "id":"6",
                         "caption":"Start Time",
                         "type":"label",
-                        "width":"8em"
+                        "width":"12.038095238095238em"
                     },
                     {
                         "id":"7",
                         "caption":"End TIme",
                         "type":"label",
-                        "width":"8em"
+                        "width":"12.038095238095238em"
                     }
                 ])
                 .setRows([
