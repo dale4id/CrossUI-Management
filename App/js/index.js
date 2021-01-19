@@ -444,49 +444,25 @@ xui.Class('App', 'xui.Module',{
                     {
                         "cells":[
                             {
-                                "value":"label1"
+                                "value":"PM"
                             },
                             {
-                                "value":"input1"
-                            },
-                            {
-                                "value":""
+                                "value":"30 Desc 2020 14:32"
                             },
                             {
                                 "value":""
                             },
                             {
-                                "value":""
+                                "value":"Mira"
                             },
                             {
-                                "value":""
+                                "value":"1 Jan 2021 08:00"
                             },
                             {
-                                "value":""
+                                "value":"1 Jan 2021 08:00"
                             },
                             {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"00:00"
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"#FFFFFF"
-                            },
-                            {
-                                "value":12
-                            },
-                            {
-                                "value":12
-                            },
-                            {
-                                "value":23.44
-                            },
-                            {
-                                "value":43.23
+                                "value":"3 Jan 2021 12:00"
                             }
                         ]
                     },
