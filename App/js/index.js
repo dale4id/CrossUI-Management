@@ -182,8 +182,9 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Top Label")
+                .setLabelCaption("Name")
                 .setLabelHAlign("left")
+                .setValue("Function Global Account")
             );
             
             host.xui_ui_div249.append(
@@ -211,7 +212,7 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Top Label")
+                .setLabelCaption("Tags")
                 .setLabelHAlign("left")
                 .setItems([
                     {
@@ -236,6 +237,32 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     }
                 ])
+                .setValue("Develop")
+            );
+            
+            host.xui_ui_div249.append(
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div330")
+                .setDock("left")
+                .setLeft("48.76190476190476em")
+                .setTop("2.2857142857142856em")
+                .setWidth("11.352380952380953em")
+            );
+            
+            host.xui_ui_div330.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button65")
+                .setDirtyMark(false)
+                .setDock("bottom")
+                .setDockMargin({
+                    "left":5,
+                    "top":0,
+                    "right":5,
+                    "bottom":10
+                })
+                .setLeft("4.571428571428571em")
+                .setTop("2.2857142857142856em")
+                .setCaption("Add Task")
             );
             
             host.xui_ui_group1.append(
@@ -272,9 +299,10 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4em")
                 .setLabelSize("2em")
                 .setLabelPos("top")
-                .setLabelCaption("Top Label")
+                .setLabelCaption("Description")
                 .setLabelHAlign("left")
                 .setMultiLines(true)
+                .setValue("Fungsi global untuk perhitungan jumlah account yang nanti nya akan di pakai oleh module penjualan")
             );
             
             host.xui_ui_div248.append(
@@ -285,7 +313,7 @@ xui.Class('App', 'xui.Module',{
                     "left":5,
                     "top":10,
                     "right":5,
-                    "bottom":10
+                    "bottom":0
                 })
                 .setLeft("0em")
                 .setTop("0em")
