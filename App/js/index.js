@@ -415,7 +415,7 @@ xui.Class('App', 'xui.Module',{
                         "id":"3",
                         "caption":"Desc",
                         "type":"label",
-                        "width":"24.99047619047619em"
+                        "width":"30.01904761904762em"
                     },
                     {
                         "id":"4",
