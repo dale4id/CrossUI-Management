@@ -442,6 +442,7 @@ xui.Class('App', 'xui.Module',{
                 ])
                 .setRows([
                     {
+                        "id":"1",
                         "cells":[
                             {
                                 "value":"PM"
@@ -467,62 +468,112 @@ xui.Class('App', 'xui.Module',{
                         ]
                     },
                     {
+                        "id":"2",
                         "cells":[
                             {
-                                "value":"label2"
+                                "value":"Mira"
                             },
                             {
-                                "value":"input2"
+                                "value":"3 Jan 2021 12:10"
                             },
                             {
-                                "value":""
+                                "value":"FSD sudah ada di server, pada bagian save ada koneksi ke penjualan"
                             },
                             {
-                                "value":""
+                                "value":"Mei"
                             },
                             {
-                                "value":""
+                                "value":"3 Jan 2021 12:43"
                             },
                             {
-                                "value":""
+                                "value":"3 Jan 2021 13:17"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"02:00"
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"#F0F0F0"
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":123
-                            },
-                            {
-                                "value":56.32
+                                "value":"3 Jan 2021 18:23"
                             }
                         ]
                     },
                     {
+                        "id":"3",
                         "cells":[
                             {
-                                "value":"label3"
+                                "value":"Mei"
                             },
                             {
-                                "value":"input3"
+                                "value":"3 Jan 2021 18:37"
                             },
+                            {
+                                "value":""
+                            },
+                            {
+                                "value":"Agus"
+                            },
+                            {
+                                "value":"4 Jan 2021 08:07"
+                            },
+                            {
+                                "value":"4 Jan 2021 08:08"
+                            },
+                            {
+                                "value":"4 Jan 2021 10:17"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"4",
+                        "cells":[
+                            {
+                                "value":"Agus"
+                            },
+                            {
+                                "value":"4 Jan 2021 10:17"
+                            },
+                            {
+                                "value":"Untuk tabel user tidak ada groupin nya"
+                            },
+                            {
+                                "value":"Mira"
+                            },
+                            {
+                                "value":"4 Jan 2021 15:23"
+                            },
+                            {
+                                "value":"5 Jan 2021 08:03"
+                            },
+                            {
+                                "value":"5 Jan 2021 11:17"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"5",
+                        "cells":[
+                            {
+                                "value":"Mira"
+                            },
+                            {
+                                "value":"5 Jan 2021 11:17"
+                            },
+                            {
+                                "value":"Table sudah di update"
+                            },
+                            {
+                                "value":"Agus"
+                            },
+                            {
+                                "value":"5 Jan 2021 11:20"
+                            },
+                            {
+                                "value":"5 Jan 2021 11:21"
+                            },
+                            {
+                                "value":"7 Jan 2021 12:05"
+                            }
+                        ]
+                    },
+                    {
+                        "id":"6",
+                        "cells":[
                             {
                                 "value":""
                             },
@@ -539,28 +590,36 @@ xui.Class('App', 'xui.Module',{
                                 "value":""
                             },
                             {
-                                "value":"2021-01-19 08:01:39"
+                                "value":""
                             },
                             {
-                                "value":"03:00"
+                                "value":""
+                            }
+                        ]
+                    },
+                    {
+                        "id":"7",
+                        "cells":[
+                            {
+                                "value":""
                             },
                             {
-                                "value":"2021-01-19 08:01:39"
+                                "value":""
                             },
                             {
-                                "value":"#0F0F0F"
+                                "value":""
                             },
                             {
-                                "value":0.14
+                                "value":""
                             },
                             {
-                                "value":0.14
+                                "value":""
                             },
                             {
-                                "value":233.55
+                                "value":""
                             },
                             {
-                                "value":43.53
+                                "value":""
                             }
                         ]
                     }
