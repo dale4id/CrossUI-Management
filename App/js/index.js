@@ -254,7 +254,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_div19.append(
                 xui.create("xui.UI.Group")
                 .setHost(host,"xui_ui_group1")
-                .setDock("top")
+                .setDock("fill")
                 .setDockMargin({
                     "left":10,
                     "top":0,
@@ -392,7 +392,7 @@ xui.Class('App', 'xui.Module',{
                     "left":10,
                     "top":10,
                     "right":10,
-                    "bottom":0
+                    "bottom":10
                 })
                 .setLeft("0em")
                 .setTop("0em")
