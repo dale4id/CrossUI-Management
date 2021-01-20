@@ -330,13 +330,13 @@ xui.Class('App', 'xui.Module',{
                         "id":"2",
                         "caption":"Name",
                         "type":"label",
-                        "width":"8em"
+                        "width":"20.038095238095238em"
                     },
                     {
                         "id":"3",
                         "caption":"Description",
                         "type":"label",
-                        "width":"8em"
+                        "width":"30.01904761904762em"
                     },
                     {
                         "id":"4",
@@ -348,7 +348,7 @@ xui.Class('App', 'xui.Module',{
                         "id":"5",
                         "caption":"Finish By",
                         "type":"label",
-                        "width":"8em"
+                        "width":"12.038095238095238em"
                     }
                 ])
                 .setRows([
@@ -358,144 +358,54 @@ xui.Class('App', 'xui.Module',{
                                 "value":true
                             },
                             {
-                                "value":"input1"
+                                "value":"Global Function Account"
                             },
                             {
-                                "value":""
+                                "value":"Pembuatan Account User, di buat global ada module lain bisa di gunakan"
                             },
                             {
-                                "value":""
+                                "value":"Develop"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"00:00"
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"#FFFFFF"
-                            },
-                            {
-                                "value":12
-                            },
-                            {
-                                "value":12
-                            },
-                            {
-                                "value":23.44
-                            },
-                            {
-                                "value":43.23
+                                "value":"Agus"
                             }
                         ]
                     },
                     {
                         "cells":[
                             {
-                                "value":true
+                                "value":false
                             },
                             {
-                                "value":"input2"
+                                "value":"Error ketika load combobox"
                             },
                             {
-                                "value":""
+                                "value":"Setelah input nominal, comboboc tidak muncul value nya"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
+                                "value":"Error"
                             },
                             {
                                 "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"02:00"
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"#F0F0F0"
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":0.13
-                            },
-                            {
-                                "value":123
-                            },
-                            {
-                                "value":56.32
                             }
                         ]
                     },
                     {
                         "cells":[
                             {
-                                "value":true
+                                "value":false
                             },
                             {
-                                "value":"input3"
+                                "value":"Update FSD, kesalahan grouping"
                             },
                             {
-                                "value":""
+                                "value":"Table USer belum ada grouping nya"
                             },
                             {
-                                "value":""
-                            },
-                            {
-                                "value":""
+                                "value":"Error"
                             },
                             {
                                 "value":""
-                            },
-                            {
-                                "value":""
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"03:00"
-                            },
-                            {
-                                "value":"2021-01-19 08:01:39"
-                            },
-                            {
-                                "value":"#0F0F0F"
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":0.14
-                            },
-                            {
-                                "value":233.55
-                            },
-                            {
-                                "value":43.53
                             }
                         ]
                     }
